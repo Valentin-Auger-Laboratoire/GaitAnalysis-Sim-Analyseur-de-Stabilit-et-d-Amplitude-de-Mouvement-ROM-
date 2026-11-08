@@ -2,6 +2,8 @@
 
 🇫🇷 [Français](#français) · 🇬🇧 [English](#english)
 
+**Essayer la démo / Try the demo :** https://valentin-auger-laboratoire.github.io/portfolio/demos/gaitanalysis/
+
 ![Genou raide, gabarits de marche et marge de stabilité](images/marche.png)
 
 > Marche **simulée** à partir de gabarits simplifiés. Seuils indicatifs : ce n'est **pas un outil de diagnostic**.
@@ -40,6 +42,7 @@ Marge de stabilité médio-latérale : min -3.9 cm  ⚠ négative : le centre de
 ### Fichiers
 | Fichier | Contenu |
 |---|---|
+| `demo/` | démo web (copie de celle du portfolio), avec ses tests : `node demo/tests/test.js` |
 | `gaitanalysis/marche.py` | gabarits, simulation, détection des pas, ROM, symétrie, marge de stabilité |
 | `analyse.py` | rapport en ligne de commande |
 | `figures.py` | figure ci-dessus (matplotlib) |
